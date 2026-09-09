@@ -1,0 +1,85 @@
+# === UNIVERSAL GITIGNORE — SOPHIA AGENCY ===
+# Evita que archivos basura entren al repositorio.
+# Aplicar a TODOS los proyectos bajo ~/proyectos/
+
+# === Dependencies ===
+node_modules/
+vendor/
+.pnp/
+.pnp.js
+
+# === Build artifacts ===
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+*.tsbuildinfo
+
+# === Test artifacts ===
+test-results/
+.test-results/
+coverage/
+.nyc_output/
+.vitest-reports/
+__snapshots__/
+__fixtures__/
+test-logs/
+*.lcov
+*.lcov.info
+coverage.out
+*.lcov
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+thumbs.db
+
+# === Environment & secrets ===
+.env
+.env.*
+!.env.example
+
+# === IDE & editor ===
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# === OS ===
+.directory
+.Trash*
+
+# === Language-specific ===
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Rust
+target/
+Cargo.lock
+# Deno
+.deno/
+rockyou.txt
